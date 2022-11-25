@@ -26,6 +26,12 @@ You can install the <code>eth_transfer</code> package via pip
 pip3 install eth_transfer
 ```
 
+After installing import 
+
+```
+from eth_transfer import *
+```
+
 ## Sending a Transaction
 
 After you have installed the package, create a <code>Web3</code> instance using either a local or remote provider. Below, we use the Remote provider Infura.io as an example.

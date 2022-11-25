@@ -4,8 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name='eth_transfer'
-
-version='0.0.1'
+version='0.0.3'
 license = { file = "LICENSE" }
 description = 'Easily send transactions on the Ethereum blockchain and fine tune gas parameters'
 authors = [
@@ -14,6 +13,7 @@ authors = [
 classifiers = [
     # complete classifier list: http://pypi.python.org/pypi?%3Aaction=list_classifiers
     'Intended Audience :: Developers',
+    'Development Status :: 2 - Pre-Alpha',
     'Operating System :: OS Independent',
     'Programming Language :: Python :: 3.7',
     'Programming Language :: Python :: 3.8',
@@ -37,3 +37,7 @@ dependencies = [
 [project.urls]
 "Homepage" = "https://github.com/MidpriceDog/eth_transfer"
 "Bug Tracker" = "https://github.com/MidpriceDog/eth_transfer/issues"
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
